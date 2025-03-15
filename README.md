@@ -43,7 +43,7 @@ To run this project locally, you need **XAMPP**:
    - Click **Go** to execute the SQL script
 6. **Open your browser** and go to:
    ```
-   http://localhost/to-do/
+   http://localhost/to-do/public/
    ```
 
 ## 📜 License

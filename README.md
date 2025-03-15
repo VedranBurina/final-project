@@ -2,6 +2,20 @@
 
 This is my **Final Project** for high school. It is a **web app** designed for creating, editing, deleting, and searching **to-do notes**.
 
+## ✨ Features
+
+- **Create Notes** - Add new notes.
+- **Edit & Delete Notes** - Modify or remove notes easily.
+- **Attach Files** - Save documents or images with notes.
+- **Search & Filter** - Find notes quickly and filter them by category.
+- **Statistics** - View statistics about notes.
+
+## 🔐 User Data & Storage
+
+- The application allows users to **create accounts** and store their data.
+- Users can **save notes**, including **text documents and images**.
+- All user data is stored and managed using a database and file system, ensuring accessibility and persistence.
+
 ## 🛠 Technologies Used
 
 - **Frontend:**

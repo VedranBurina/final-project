@@ -8,7 +8,7 @@ This is my **Final Project** for high school. It is a **web app** designed for c
 - **Edit & Delete Notes** - Modify or remove notes easily.
 - **Attach Files** - Save documents or images with notes.
 - **Search & Filter** - Find notes quickly and filter them by category.
-- **Statistics** - View statistics about notes.
+- **Category Statistics** - Display the number of notes in each category.
 
 ## 🔐 User Data & Storage
 

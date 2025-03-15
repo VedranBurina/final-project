@@ -1,0 +1,29 @@
+form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    width: 400px;
+}
+
+input {
+    width: 100%;
+}
+
+#back {
+    color: rgb(var(--darker-clr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+#back:hover {
+    color: rgb(var(--clr));
+}
+
+#back svg {
+    color: rgb(var(--clr));
+}

@@ -1,0 +1,185 @@
+@import url("../../CSS/defined-styles.css");
+
+body {
+    background-color: rgb(var(--bg-clr));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 30px 0;
+}
+
+input, select, option, textarea {
+    padding: 10px 17px; 
+    width: 360px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: 2px solid rgb(var(--clr));
+    font-size: 16px;
+    background-color: transparent;
+    color: rgb(var(--clr));
+    transition: .45s all ease;
+}
+
+option, select {
+    width: 360px;
+}
+
+textarea {
+    resize: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(var(--clr), .8);
+    transition: inherit;
+}
+
+select:focus {
+    outline: 0;
+}
+
+input:focus::placeholder, textarea:focus::placeholder {
+    color: transparent;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 0;
+    border: 2px solid rgb(var(--lighter-clr));
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    border: 0;
+    background: linear-gradient(140deg, rgb(var(--darker-clr)), rgb(var(--lighter-clr)));
+    color: white; 
+    transition: .3s all ease;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;   
+    column-gap: 30px;
+    row-gap: 35px;
+    flex-wrap: wrap;
+    width: 783px;
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    width: 360px;  
+    row-gap: 30px;
+}
+
+.split > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.split-line {
+    margin: 15px 0;
+    width: 3px;
+    background-color: rgb(var(--clr));
+    border-radius: 1.5px;
+}
+
+#back {
+    color: rgb(var(--darker-clr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+#back:hover {
+    color: rgb(var(--clr));
+}
+
+#back svg {
+    color: rgb(var(--clr));
+}
+
+#title {
+    font-size: 28px;
+    width: 330px;
+    border-radius: 0px;
+    padding: 2.5px 17px;
+    border: 0;
+    border-bottom: 2px solid rgb(var(--clr));
+    text-align: center;
+}
+
+#title:focus {
+    border-bottom-color: rgb(var(--lighter-clr));
+}
+
+textarea {
+    height: 410px;
+    width: 360px;
+}
+
+div {
+    color: rgb(var(--clr));
+}
+
+.input-info-container {
+    position: relative;
+}
+
+.input-info-container > span {
+    position: absolute;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -14px;
+    font-size: 13px;
+    color: rgb(var(--darker-clr));
+    text-align: center;
+    width: 200px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.submit-btn-wrapper {
+    width: 360px;
+}
+
+#completion {
+    padding: 0 !important;
+    display: block;
+    max-width: 28px;
+    max-height: 28px;
+    border-color: rgb(192, 162, 144) !important;
+}
+
+#completion:checked {
+    box-shadow: 0px 0px 0px 3px rgb(225, 211, 182) inset;
+    background-color: rgb(192, 162, 144) !important;
+}
+
+#attachment {
+    border-style: dashed;
+    border-width: 2px;
+    height: 200px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(73%) sepia(13%) saturate(593%) hue-rotate(339deg) brightness(90%) contrast(86%);
+}
+
+

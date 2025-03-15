@@ -32,13 +32,18 @@ To run this project locally, you need **XAMPP**:
 1. **Download and install XAMPP** from [apachefriends.org](https://www.apachefriends.org/).
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/VedranBurina/final-project.git
+   git clone https://github.com/VedranBurina/to-do.git
    ```
 3. **Move the project folder** to the `htdocs` directory inside your XAMPP installation.
 4. **Start Apache and MySQL** in the XAMPP Control Panel.
-5. **Open your browser** and go to:
+5. **Import the database:**
+   - Open [phpMyAdmin](http://localhost/phpmyadmin/)
+   - Create a new database named `notes`
+   - Click **Import** and select `notes-db.sql` from the project folder
+   - Click **Go** to execute the SQL script
+6. **Open your browser** and go to:
    ```
-   http://localhost/final-project/
+   http://localhost/to-do/
    ```
 
 ## 📜 License
